@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+  <title>Webontwikkelaar - Contact</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- TEMPLATE HEADER -->
+    <!--start login-->
+    <div class="login">
+
+      <div class="login-columns">
+        <form class="login-form" method="get" action="/search" aria-label="Login formulier">
+          <label for="username">Gebruikersnaam:</label>
+          <input type="text" name="username" id="username" aria-required="true">
+          <label for="pw">Wachtwoord:</label>
+          <input type="password" name="pw" id="pw" aria-required="true">
+          <button type="submit" value="Aanmelden">Aanmelden</button>
+        </form>
+      </div>
+
+    </div>
+    <!--einde login-->
+
+    <!-- header -->
+    <header>
+      <div id="logo">
+        <a href="webontwikkelaar_home.html">
+          <img src="./img/vdab_200.png" alt="VDAB logo">
+        </a>
+      </div>
+
+      <nav aria-label="Hoofdmenu">
+        <ul>
+          <li><a href="webontwikkelaar_wat.html">Wat we doen</a></li>
+          <li><a href="webontwikkelaar_wie.html">Wie we zijn</a></li>
+          <li><a href="webontwikkelaar_portfolio.html">Portfolio</a></li>
+          <li><a href="webontwikkelaar_contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- einde header -->
+    <hr>
+    <!-- EINDE TEMPLATE HEADER -->
+    <!--inhoud-->
+
+    <main>
+
+      <div id="waarvindje">
+        <div class="columns">
+          <div class="column-contact" id="waar">
+            <h1>Waar vind je ons?</h1>
+            <p>Wij zitten in Oostende, stad aan zee.</p>
+            <p>Ons competentiecentrum vind je in Stene-Zandvoorde, een goeie 20 min wandeling van het station en
+              dichtbij het Kennedy rondpunt. Je kan ook de bus nemen (22,23 of 25), afstappen in de Zandvoordestraat en
+              nog 5 min stappen.</p>
+          </div>
+
+          <div class="column-contact" id="centrum-div">
+            <ul id="centrum">
+              <li><strong>VDAB Competentiecentrum</strong></li>
+              <li>Archimedesstraat 4-6</li>
+              <li>8400 Oostende</li>
+              <li>t: 059/559070</li>
+              <li>e: <a href="mailto:jan.vandorpe@vdab.be">jan.vandorpe@vdab.be</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="columns" id="fotos">
+          <div class="column-contact gmap">
+            <img id="gmap" src="./img/gmap.png" alt="Google Map">
+          </div>
+          <div class="column-contact images">
+            <div class="img-row">
+              <img class="vertical" src="./img/env1.jpg" alt="keyboard">
+              <img class="vertical" src="./img/env4.jpg" alt="VDAB">
+            </div>
+            <div class="img-row">
+              <img class="boeken" src="./img/env2.jpg" alt="Boeken">
+              <img class="horizontal" src="./img/env3.jpg" alt="Tablet">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+
+
+  <div class="form">
+    <h3>Heeft u nog vragen?</h3>
+    <form class="contact" action="js_form_ontvanger.html" method="get" id="frmgegevens" name="frmgegevens">
+      <div class="form-group">
+        <label for="vnaam" title="verplicht">Wie bent u?</label>
+        <input type="text" id="vnaam" name="vnaam" autofocus placeholder="uw naam" title="vul hier uw naam in" required>
+        <div class="error" id="error-vnaam">
+          <p>Error: Vul uw naam in.</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="uw emailadres" title="mijn emailadres" required>
+        <div class="error" id="error-email">
+          <p>Error: Vul een geldig e-mailadres in.</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="vragen">Uw vraag</label>
+        <textarea id="vragen" name="vragen" placeholder="vragen?" title="Heeft u nog vragen?"></textarea>
+        <div class="error" id="error-vragen">
+          <p>Error: Vul uw vraag in.</p>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="labelCheckbox">
+          <input type="checkbox" id="actiesmail" value name="kortingen" />
+          Hou mij op de hoogte van de nieuwe acties van het centrum
+        </label>
+        <div class="error" id="error-kortingen">
+          <p>Error: Selecteer de optie.</p>
+        </div>
+      </div>
+
+      <input type="submit" value="Stuur door" />
+    </form>
+  </div>
+
+
+  <!--einde inhoud-->
+
+  <!--footer-->
+  <footer>
+    <hr>
+    <p>&copy; VDAB | <a href="webontwikkelaar_contact.html">Mail ons</a> | maandag 4 februari 2013</p>
+    <p><em>
+        Dit is een oefenpagina voor de informaticaopleidingen van de vdab: het is mogelijk dat de informatie op
+        deze
+        pagina verouderd en niet meer accuraat is. De hyperlinks kunnen naar niet bestaande URL's verwijzen.
+      </em></p>
+  </footer>
+  <!--einde footer-->
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+  <title>Webontwikkelaar - Home</title>
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <!-- TEMPLATE HEADER -->
+    <!--start login-->
+    <div class="login">
+
+      <div class="login-columns">
+        <form class="login-form" method="get" action="/search" aria-label="Login formulier">
+          <label for="username">Gebruikersnaam:</label>
+          <input type="text" name="username" id="username" aria-required="true">
+          <label for="pw">Wachtwoord:</label>
+          <input type="password" name="pw" id="pw" aria-required="true">
+          <button type="submit" value="Aanmelden">Aanmelden</button>
+        </form>
+      </div>
+
+    </div>
+    <!--einde login-->
+
+    <!-- header -->
+    <header>
+      <div id="logo">
+        <a href="webontwikkelaar_home.html">
+          <img src="./img/vdab_200.png" alt="VDAB logo">
+        </a>
+      </div>
+
+      <nav aria-label="Hoofdmenu">
+        <ul>
+          <li><a href="webontwikkelaar_wat.html">Wat we doen</a></li>
+          <li><a href="webontwikkelaar_wie.html">Wie we zijn</a></li>
+          <li><a href="webontwikkelaar_portfolio.html">Portfolio</a></li>
+          <li><a href="webontwikkelaar_contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- einde header -->
+    <hr>
+    <!-- EINDE TEMPLATE HEADER -->
+
+    <!--inhoud-->
+    <main>
+
+      <!-- upper -->
+      <div class="upper">
+        <section aria-labelledby="opleiding" class="columns">
+          <div class="column">
+            <h1 id="opleiding">Webontwikkelaar</h1>
+            <h2>Een VDAB opleiding</h2>
+            <h3>T&O Oostende</h3>
+            <p>Leer efficiënt en professioneel websites ontwikkelen die voldoen aan alle webstandaarden.</p>
+          </div>
+          <div class="column">
+            <img src="./img/web-developer.jpg" alt="Webontwikkelaar afbeelding">
+          </div>
+        </section>
+      </div>
+      <!-- einde upper -->
+
+
+      <!-- middle -->
+      <div class="middle">
+        <section aria-labelledby="waarom">
+          <div class="columns">
+            <div class="middle-img">
+              <img src="./img/responsive-design.jpg" alt="Responsive design afbeelding">
+            </div>
+            <div class="middle-txt">
+              <h2 id="waarom">Waarom een VDAB opleiding?</h2>
+              <p>De VDAB opleidingen zijn intens, degelijk en hebben maar één doel: van u een <span class="professional">professional</span>
+                maken
+                die onmiddellijk inzetbaar is bij een IT-bedrijf.</p>
+            </div>
+          </div>
+          <div class="columns">
+            <ul class="check-list">
+              <li>Deze opleidingen worden gegeven als "begeleide zelfstudie": je leert al doende en wordt toch ter
+                plekke
+                begeleidt door de instructeur. De dot module beschrijft wat er van je verlangt wordt en hoe je dat kunt
+                bereiken</li>
+              <li>Je gebruikt vdab cursussen, leest Engelstalige IT boeken en websites om het onderwerp te studeren</li>
+              <li>De opleiding bestaat uit modules: voor elke module volg je een dot brochure die zegt wat, hoe en
+                enlang
+                je erover doet</li>
+              <li>Na elke module wordt je getest op je verwerven kennis, dat kan theoretisch of practisch zijn, of
+                allebei
+              </li>
+              <li>Aan het einde van de opleiding volgt een verplichte stage bij een IT bedrijf. Je moet zelf deze
+                stageplaats zoeken</li>
+              <li>Je bevindt je in een tof team van mede-cursisten die in alle staten van gevorderdheid verkeren!</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <!-- einde middle -->
+
+
+      <!-- lower -->
+      <div class="lower">
+        <section aria-labelledby="nieuws">
+
+          <h2 id="nieuws">T&O Oostende Nieuws</h2>
+          <div class="row">
+
+            <div class="col">
+              <article id="nws_123" aria-labelledby="nws123title">
+                <time datetime="2012-05-10">10 Mei 2012</time>
+                <h3 id="nws123title">Nu ook Front-end ontwikkelaar</h3>
+                <p>Vanaf vandaag kan je ook <a
+                    href="http://vdab.be/mijnvdab/opleidingen/opleidingen.jsp?context=MAIL&entryPoint=OpleidingInhoud&opleidingid=41424&doelgroep=2">Front-end
+                    ontwikkelaar</a> volgen in ons centrum. De Front-end developer spitst zich meer toe op op de
+                  client-side
+                  programmatie en UI van de website.</p>
+              </article>
+            </div>
+            <div class="col">
+              <article id="nws_456" aria-labelledby="nws456title">
+                <time datetime="2012-06-24">24 Juni 2012</time>
+                <h3 id="nws456title">Responsive web design</h3>
+                <p>Met de komst van allerhande mobiele toestellen - smartphones, tablets - richten we ons in de module
+                  <code>html</code> en <code>css</code> ook op <a
+                    href="http://www.alistapart.com/articles/responsive-web-design/">Responsive web design</a>.
+                </p>
+                <p>In plaats van verschillende websites te maken, voor desktops én voor mobiles, maken we er slechts één
+                  en
+                  zorgen ervoor dat deze zich vanzelf aanpast aan zijn context: toestel, schermgresolutie, orientatie.
+                </p>
+                <p>Daar komt heel wat bij kijken: je moet niet alleen rekening houden met het scherm, maar ook met de
+                  laadtijd van beelden, stylesheets en scripts. Ook scripting moet opnieuw bekeken worden want de OS van
+                  het
+                  toestel laat niet alles toe wat je op een Windows of Mac kan gebruiken.</p>
+              </article>
+            </div>
+            <div class="col">
+              <article id="nws_789" aria-labelledby="nws789title">
+                <time datetime="2012-12-10">10 Mei 2012</time>
+                <h3 id="nws789title">IT-event te Wevelgem</h3>
+                <p>Op donderdag 13 december om 18u organiseert de IT-opleidingen West-Vlaanderen opnieuw een IT-event
+                  voor
+                  bedrijven. Het thema is deze keer "recrutering van IT professionals".</p>
+                <p>Interesse? contacteer dan <a href="mailto:mickey.mouse@disney.com">Isabelle Beheydt</a></p>
+                <img src="./img/HTML5_Logo_128.png" alt="HTML5 Logo">
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- einde lower -->
+
+    </main>
+    <!--einde inhoud-->
+
+    <!--footer-->
+    <footer>
+      <hr>
+      <p>&copy; VDAB | <a href="webontwikkelaar_contact.html">Mail ons</a> | maandag 4 februari 2013</p>
+      <p><em>
+        Dit is een oefenpagina voor de informaticaopleidingen van de vdab: het is mogelijk dat de informatie op deze
+          pagina verouderd en niet meer accuraat is. De hyperlinks kunnen naar niet bestaande URL's verwijzen.
+      </em></p>
+    </footer>
+    <!--einde footer-->
+  </div>
+
+
+</body>
+
+</html>
